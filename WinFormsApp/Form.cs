@@ -2,7 +2,7 @@ using WinFormsLibrary;
 
 
 namespace WinFormsApp {
-    public partial class Form1 : Form {
+    public partial class Form : System.Windows.Forms.Form {
         private TextBox _textbox1;
         private TextBox _textbox2;
 
@@ -14,7 +14,7 @@ namespace WinFormsApp {
         private Label _label;
 
         private Class _class = new Class();
-        public Form1() {
+        public Form() {
             InitializeComponent();
             this.Icon = new Icon(
                 Path.Combine(AppContext.BaseDirectory, "Assets", "calculator.ico")); this.BackColor = Color.LightGray;
