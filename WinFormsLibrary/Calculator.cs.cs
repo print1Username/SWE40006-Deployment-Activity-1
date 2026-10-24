@@ -1,4 +1,4 @@
-﻿namespace WinFormsLibrary2_Task13 {
+﻿namespace WinFormsLibrary {
     public class Class1 {
         private TextBox _box1;
         private TextBox _box2;
