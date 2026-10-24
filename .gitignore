@@ -14,3 +14,7 @@
 
 # PDF documents
 *.pdf
+
+# Report
+*.html
+*.htm
