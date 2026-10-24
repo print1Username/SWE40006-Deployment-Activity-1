@@ -1,5 +1,5 @@
 ﻿namespace WinFormsLibrary {
-    public class Class1 {
+    public class Calculator {
         private TextBox _box1;
         private TextBox _box2;
         private Label _label;
@@ -8,7 +8,7 @@
         private double _num2;
         private double _num3;
 
-        public Class1(TextBox box1, TextBox box2, Label label) {
+        public Calculator(TextBox box1, TextBox box2, Label label) {
             _box1 = box1;
             _box2 = box2;
             _label = label;

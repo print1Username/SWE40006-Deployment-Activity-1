@@ -13,7 +13,7 @@ namespace WinFormsApp {
 
         private Label _label;
 
-        private Class _class = new Class();
+        private ControlCreator _class = new ControlCreator();
         public Form() {
             InitializeComponent();
             this.Icon = new Icon(
@@ -32,7 +32,7 @@ namespace WinFormsApp {
 
             _label = _class.CreateLabel();
 
-            Class1 _class1 = new Class1(_textbox1, _textbox2, _label);
+            Calculator _class1 = new Calculator(_textbox1, _textbox2, _label);
 
             _buttonAdd.Click += (sender, e) => _class1.Calculate(sender, e, "add");
             _buttonSub.Click += (sender, e) => _class1.Calculate(sender, e, "sub");

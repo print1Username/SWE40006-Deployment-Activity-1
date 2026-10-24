@@ -1,6 +1,6 @@
 ﻿namespace WinFormsLibrary
 {
-    public class Class
+    public class ControlCreator
     {
         public TextBox CreateTextBox(int num1, int num2) {
             TextBox box = new TextBox {
