@@ -9,8 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WinFormsLibrary1\WinFormsLibrary1.csproj" />
-    <ProjectReference Include="..\WinFormsLibrary2\WinFormsLibrary2.csproj" />
+    <ProjectReference Include="..\WinFormsLibrary\WinFormsLibrary.csproj" />
   </ItemGroup>
 
 </Project>
