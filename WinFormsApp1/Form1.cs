@@ -17,8 +17,8 @@ namespace WinFormsApp1_Task13 {
         private Class _class = new Class();
         public Form1() {
             InitializeComponent();
-            this.Icon = new Icon("calculator.ico");
-            this.BackColor = Color.LightGray;
+            this.Icon = new Icon(
+                Path.Combine(AppContext.BaseDirectory, "Assets", "calculator.ico")); this.BackColor = Color.LightGray;
             this.Text = "Simple Calculator";
             this.Font = new Font("Arial", 11, FontStyle.Regular);
             this.Size = new Size(600, 400);
