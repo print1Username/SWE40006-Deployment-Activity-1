@@ -1,0 +1,16 @@
+# Visual Studio user settings and workspace files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+**/bin/
+**/obj/
+
+# WiX installer build output
+**/*.wixpdb
+
+# PDF documents
+*.pdf
