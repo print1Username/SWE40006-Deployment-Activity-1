@@ -1,8 +1,7 @@
 using WinFormsLibrary;
-using WinFormsLibrary1_Task13;
 
 
-namespace WinFormsApp1_Task13 {
+namespace WinFormsApp {
     public partial class Form1 : Form {
         private TextBox _textbox1;
         private TextBox _textbox2;

@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1_Task13 {
+﻿namespace WinFormsApp {
     partial class Form1 {
         /// <summary>
         ///  Required designer variable.

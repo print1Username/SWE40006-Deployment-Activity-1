@@ -1,4 +1,4 @@
-namespace WinFormsApp1_Task13 {
+namespace WinFormsApp {
     internal static class Program {
         /// <summary>
         ///  The main entry point for the application.

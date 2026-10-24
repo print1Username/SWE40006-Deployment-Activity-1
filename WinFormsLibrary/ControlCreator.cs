@@ -1,4 +1,4 @@
-﻿namespace WinFormsLibrary1_Task13
+﻿namespace WinFormsLibrary
 {
     public class Class
     {
